@@ -19,7 +19,7 @@ module.exports = {
         xl: '1200px',
       },
     },
-    color:{
+    colors:{
       body :'#e5e5e5',
       white: '#fff',
       green:{DEFAULT:'#539592', hover:'#40807d'},
