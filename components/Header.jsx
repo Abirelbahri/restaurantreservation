@@ -1,5 +1,5 @@
 "use client";
-import react, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
@@ -46,7 +46,7 @@ const Header = () => {
           {/* btn */}
           <ScrollLink to="reservation" smooth={true}>
             <Button variant="orange" size="sm">
-              Boot a table
+              Book a table
             </Button>
           </ScrollLink>
           {/* mobile nav */}
