@@ -9,7 +9,7 @@ const Hero = () => {
     <section id='home' style={{backgroundImage: 'url(/hero/bg.png)'}} className="bg-no-repeat relative xl:bg-cover xl:h-[1098px] py-20 pb-32 xl:py-0">
         <div className="container mx-auto">
             <div className="flex items-center xl:h:[960px]">
-                {/* leftside */}
+                {/* leftside  text */}
                 <div className="w-full xl:max-w-[460px] text-center xl:pt-40 xl:text-left">
                     <motion.h1 variants={fadeIn('down' , 0.2)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.4}} className="text-white mb-7">A taste of local <br /> flavours</motion.h1>
                     <motion.p variants={fadeIn('down' , 0.4)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.4}} className="text-white font-semibold mb-7">by <span className="text-[#f2994a]">ilias</span></motion.p>
@@ -18,12 +18,13 @@ const Hero = () => {
                       <Button>Let's eat</Button>  
                     </motion.div>
                 </div>
-                {/* rightside */}
+                {/* rightside  image */}
                 <motion.div variants={fadeIn('up' , 0.8)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.1}} className="hidden xl:flex xl:absolute xl:top-[90px] xl:right-0">
                     <Image src='/hero/plate.png' width={756} height={682} alt='plate' />
                 </motion.div>
             </div>
         </div>
+                {/* coffee picture */}
         <motion.div variants={fadeIn('up' , 1.2)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.1}} className="hidden xl:flex xl:relative xl:top-28">
             <Image src='/hero/coffee.png' width={386} height={484} alt='coffee'/>
         </motion.div>
