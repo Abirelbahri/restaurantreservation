@@ -33,11 +33,11 @@ const ReservationForm = () => {
       <div className="grid gap-[30px]">
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-[30px]">
           <div>
-            <Label htmlForm="firstname">First Name</Label>
+            <Label htmlform="firstname">First Name</Label>
             <Input type="text" id="firstname" />
           </div>
           <div>
-            <Label htmlForm="lastname">Last Name</Label>
+            <Label htmlform="lastname">Last Name</Label>
             <Input type="text" id="lastname" />
           </div>
         </div>
